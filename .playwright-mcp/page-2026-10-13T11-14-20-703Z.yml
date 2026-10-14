@@ -1,0 +1,139 @@
+- generic [ref=e1]:
+  - navigation [ref=e3]:
+    - generic [ref=e5]:
+      - link "EventHub" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - button "Toggle menu" [ref=e11] [cursor=pointer]
+  - main [ref=e14]:
+    - generic [ref=e402]:
+      - navigation [ref=e403]:
+        - link "My Bookings" [ref=e404] [cursor=pointer]:
+          - /url: /bookings
+        - generic [ref=e405]: /
+        - generic [ref=e406]: J-418RIG
+      - generic [ref=e407]:
+        - generic [ref=e408]:
+          - generic [ref=e409]:
+            - generic [ref=e410]: J-418RIG
+            - generic [ref=e411]: confirmed
+          - heading "Java Automation Workshop" [level=1] [ref=e412]
+        - button "Cancel Booking" [active] [ref=e413] [cursor=pointer]
+      - generic [ref=e414]:
+        - generic [ref=e415]:
+          - heading "Event Details" [level=2] [ref=e416]
+          - generic [ref=e417]:
+            - generic [ref=e418]:
+              - generic [ref=e419]: Event
+              - generic [ref=e420]: Java Automation Workshop
+            - generic [ref=e421]:
+              - generic [ref=e422]: Category
+              - generic [ref=e423]: Workshop
+            - generic [ref=e424]:
+              - generic [ref=e425]: Date
+              - generic [ref=e426]: Tuesday, 10 November 2026
+            - generic [ref=e427]:
+              - generic [ref=e428]: Venue
+              - generic [ref=e429]: Mumbai Tech Park
+            - generic [ref=e430]:
+              - generic [ref=e431]: City
+              - generic [ref=e432]: Pune
+        - generic [ref=e433]:
+          - heading "Customer Details" [level=2] [ref=e434]
+          - generic [ref=e435]:
+            - generic [ref=e436]:
+              - generic [ref=e437]: Name
+              - generic [ref=e438]: John Smith
+            - generic [ref=e439]:
+              - generic [ref=e440]: Email
+              - generic [ref=e441]: johnsmith@gmail.com
+            - generic [ref=e442]:
+              - generic [ref=e443]: Phone
+              - generic [ref=e444]: "9876543210"
+        - generic [ref=e445]:
+          - heading "Payment Summary" [level=2] [ref=e446]
+          - generic [ref=e447]:
+            - generic [ref=e448]:
+              - generic [ref=e449]: Tickets
+              - generic [ref=e450]: "3"
+            - generic [ref=e451]:
+              - generic [ref=e452]: Price per ticket
+              - generic [ref=e453]: $1,500
+            - generic [ref=e454]:
+              - generic [ref=e455]: Total Paid
+              - generic [ref=e456]: $4,500
+        - generic [ref=e457]:
+          - heading "Refund" [level=2] [ref=e458]
+          - button "Check eligibility for refund?" [ref=e459] [cursor=pointer]
+        - generic [ref=e460]:
+          - heading "Booking Information" [level=2] [ref=e461]
+          - generic [ref=e462]:
+            - generic [ref=e463]:
+              - generic [ref=e464]: Booked on
+              - generic [ref=e465]: Monday, 12 October 2026
+            - generic [ref=e466]:
+              - generic [ref=e467]: Booking ID
+              - generic [ref=e468]: "#27626"
+      - link [ref=e470] [cursor=pointer]:
+        - /url: /bookings
+        - button "← Back to My Bookings" [ref=e471]
+  - contentinfo [ref=e174]:
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - heading "Rahul Shetty Academy" [level=3] [ref=e178]
+          - paragraph [ref=e179]: India's leading QA automation training academy — empowering engineers to build real-world testing skills.
+        - generic [ref=e180]:
+          - heading "Popular Courses" [level=3] [ref=e181]
+          - list [ref=e182]:
+            - listitem [ref=e183]:
+              - link "Selenium WebDriver with Java" [ref=e184] [cursor=pointer]:
+                - /url: https://rahulshettyacademy.com
+            - listitem [ref=e185]:
+              - link "Playwright with JavaScript" [ref=e186] [cursor=pointer]:
+                - /url: https://rahulshettyacademy.com
+            - listitem [ref=e187]:
+              - link "RestAssured API Testing" [ref=e188] [cursor=pointer]:
+                - /url: https://rahulshettyacademy.com
+            - listitem [ref=e189]:
+              - link "Cypress End-to-End Testing" [ref=e190] [cursor=pointer]:
+                - /url: https://rahulshettyacademy.com
+            - listitem [ref=e191]:
+              - link "Appium Mobile Testing" [ref=e192] [cursor=pointer]:
+                - /url: https://rahulshettyacademy.com
+        - generic [ref=e193]:
+          - heading "QA Job Hiring Platform" [level=3] [ref=e194]
+          - paragraph [ref=e195]: Get hired faster — take skill assessments trusted by top QA employers worldwide.
+          - link "techsmarthire.com →" [ref=e196] [cursor=pointer]:
+            - /url: https://techsmarthire.com
+        - generic [ref=e197]:
+          - heading "EventHub Practice App" [level=3] [ref=e198]
+          - list [ref=e199]:
+            - listitem [ref=e200]:
+              - link "Browse Events" [ref=e201] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e202]:
+              - link "My Bookings" [ref=e203] [cursor=pointer]:
+                - /url: /bookings
+            - listitem [ref=e204]:
+              - link "Manage Events" [ref=e205] [cursor=pointer]:
+                - /url: /admin/events
+            - listitem [ref=e206]:
+              - link "API Documentation" [ref=e207] [cursor=pointer]:
+                - /url: https://api.eventhub.rahulshettyacademy.com/api/docs
+      - generic [ref=e208]:
+        - paragraph [ref=e209]: © 2026 Rahul Shetty Academy. All rights reserved.
+        - generic [ref=e210]:
+          - link "rahulshettyacademy.com →" [ref=e211] [cursor=pointer]:
+            - /url: https://rahulshettyacademy.com
+          - link "techsmarthire.com →" [ref=e212] [cursor=pointer]:
+            - /url: https://techsmarthire.com
+  - alert [ref=e2]
+  - dialog [ref=e474]:
+    - generic [ref=e475]:
+      - heading "Cancel this booking?" [level=2] [ref=e476]
+      - button "Close" [ref=e477] [cursor=pointer]
+    - generic [ref=e480]:
+      - paragraph [ref=e481]: Cancelling J-418RIG will release 3 seat(s) back to the event. This cannot be undone.
+      - generic [ref=e482]:
+        - button "Cancel" [ref=e483] [cursor=pointer]
+        - button "Yes, cancel it" [ref=e484] [cursor=pointer]

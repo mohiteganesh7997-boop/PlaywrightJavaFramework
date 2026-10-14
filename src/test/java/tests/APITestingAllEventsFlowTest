@@ -1,0 +1,45 @@
+
+// Refer file: API_Test to understand the Execution of code.(ChatGPT)
+
+You can think about your code as data being carried from one API to another:
+
+
+
+LOGIN
+  │
+  │ response
+  ↓
+TOKEN
+  │
+  │ Authorization: Bearer token
+  ↓
+CREATE EVENT
+  │
+  │ response
+  ↓
+EVENT ID
+  │
+  ├──────────────→ GET EVENTS
+  │                    │
+  │                    ↓
+  │              Verify event exists
+  │
+  ↓
+DELETE EVENT
+  │
+  │ DELETE /events/{eventId}
+  ↓
+GET EVENTS AGAIN
+  │
+  ↓
+Verify event does NOT exist
+
+
+
+
+In one sentence:
+Login gives me the token, Create Event uses the token and gives me the eventId, GET verifies that eventId exists,
+DELETE uses the same token + eventId, and the final GET verifies that the eventId no longer exists.
+
+That is your complete  [ Login → Create → GET → Delete → Verify Delete ]  API chaining flow.
+This is a good example of API chaining.

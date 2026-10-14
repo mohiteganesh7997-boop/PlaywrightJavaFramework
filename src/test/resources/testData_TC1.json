@@ -1,0 +1,52 @@
+[
+
+  { "email" : "user1@yahoo.com",
+    "password" : "Password@123"
+
+
+  },
+
+  { "email" : "user1@gmail.com",
+    "password" : "Password@12345"
+
+
+  },
+  { "email" : "user2@yahoo.com",
+    "password" : "Password@123"
+
+
+  },
+  { "email" : "user2@gmail.com",
+    "password" : "Password@12345"
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+
+
+
+
+
+
+
+
+
+
+
+

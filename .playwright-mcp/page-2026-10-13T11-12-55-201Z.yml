@@ -1,0 +1,188 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e3]:
+    - generic [ref=e5]:
+      - link "EventHub" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - button "Toggle menu" [ref=e11] [cursor=pointer]
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e18]:
+        - heading "Discover & Book Amazing Events" [level=1] [ref=e19]: Discover & BookAmazing Events
+        - paragraph [ref=e20]: From tech conferences to live concerts, sports events to cultural festivals — find experiences that inspire you.
+        - generic [ref=e21]:
+          - link "Browse Events →" [ref=e22] [cursor=pointer]:
+            - /url: /events
+          - link [ref=e24] [cursor=pointer]:
+            - /url: /bookings
+            - button "My Bookings" [ref=e25]
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - heading "Featured Events" [level=2] [ref=e29]
+            - paragraph [ref=e30]: Hand-picked upcoming events just for you
+          - link "View all →" [ref=e31] [cursor=pointer]:
+            - /url: /events
+        - generic [ref=e32]:
+          - article [ref=e33]:
+            - generic [ref=e34]:
+              - img "Dilli Diwali Mela" [ref=e35]
+              - generic [ref=e36]: Festival
+              - generic [ref=e38]: Featured
+            - generic [ref=e39]:
+              - link [ref=e40] [cursor=pointer]:
+                - /url: /events/285
+                - heading "Dilli Diwali Mela" [level=3] [ref=e41]
+              - generic [ref=e42]:
+                - generic [ref=e43]: Tue, 20 Oct
+                - generic [ref=e47]: Pragati Maidan Exhibition Grounds, Delhi
+              - generic [ref=e51]:
+                - generic [ref=e52]:
+                  - paragraph [ref=e53]: $300
+                  - generic [ref=e54]: 5113 seats available
+                - link "Book Now" [ref=e55] [cursor=pointer]:
+                  - /url: /events/285
+          - article [ref=e56]:
+            - generic [ref=e57]:
+              - img "Hollywood Monsoon Night — Los Angeles" [ref=e58]
+              - generic [ref=e59]: Concert
+              - generic [ref=e61]: Featured
+            - generic [ref=e62]:
+              - link [ref=e63] [cursor=pointer]:
+                - /url: /events/284
+                - heading "Hollywood Monsoon Night — Los Angeles" [level=3] [ref=e64]
+              - generic [ref=e65]:
+                - generic [ref=e66]: Sun, 12 Jul
+                - generic [ref=e70]: Dome, NSCI SVP Stadium, Worli, Los Angeles
+              - generic [ref=e74]:
+                - generic [ref=e75]:
+                  - paragraph [ref=e76]: $2,500
+                  - generic [ref=e77]: 2768 seats available
+                - link "Book Now" [ref=e78] [cursor=pointer]:
+                  - /url: /events/284
+          - article [ref=e79]:
+            - generic [ref=e80]:
+              - img "World Tech Summit" [ref=e81]
+              - generic [ref=e82]: Conference
+              - generic [ref=e84]: Featured
+            - generic [ref=e85]:
+              - link [ref=e86] [cursor=pointer]:
+                - /url: /events/283
+                - heading "World Tech Summit" [level=3] [ref=e87]
+              - generic [ref=e88]:
+                - generic [ref=e89]: Sat, 18 Apr
+                - generic [ref=e93]: Hyderabad, Hitech city, Hyderabad
+              - generic [ref=e97]:
+                - generic [ref=e98]:
+                  - paragraph [ref=e99]: $1,500
+                  - generic [ref=e100]: 9 seats left!
+                - link "Book Now" [ref=e101] [cursor=pointer]:
+                  - /url: /events/283
+          - article [ref=e102]:
+            - generic [ref=e103]:
+              - img "Playwright Learning" [ref=e104]
+              - generic [ref=e105]: Conference
+            - generic [ref=e107]:
+              - link [ref=e108] [cursor=pointer]:
+                - /url: /events/15201
+                - heading "Playwright Learning" [level=3] [ref=e109]
+              - generic [ref=e110]:
+                - generic [ref=e111]: Wed, 4 Nov
+                - generic [ref=e115]: Thane city, Mumbai
+              - generic [ref=e119]:
+                - generic [ref=e120]:
+                  - paragraph [ref=e121]: $1,000
+                  - generic [ref=e122]: 500 seats available
+                - link "Book Now" [ref=e123] [cursor=pointer]:
+                  - /url: /events/15201
+          - article [ref=e124]:
+            - generic [ref=e125]:
+              - img "Java Automation Workshop" [ref=e126]
+              - generic [ref=e127]: Workshop
+            - generic [ref=e129]:
+              - link [ref=e130] [cursor=pointer]:
+                - /url: /events/14738
+                - heading "Java Automation Workshop" [level=3] [ref=e131]
+              - generic [ref=e132]:
+                - generic [ref=e133]: Tue, 10 Nov
+                - generic [ref=e137]: Mumbai Tech Park, Pune
+              - generic [ref=e141]:
+                - generic [ref=e142]:
+                  - paragraph [ref=e143]: $1,500
+                  - generic [ref=e144]: 285 seats available
+                - link "Book Now" [ref=e145] [cursor=pointer]:
+                  - /url: /events/14738
+          - article [ref=e146]:
+            - generic [ref=e147]:
+              - img "Playwright Learning Event" [ref=e148]
+              - generic [ref=e149]: Conference
+            - generic [ref=e151]:
+              - link [ref=e152] [cursor=pointer]:
+                - /url: /events/14737
+                - heading "Playwright Learning Event" [level=3] [ref=e153]
+              - generic [ref=e154]:
+                - generic [ref=e155]: Wed, 4 Nov
+                - generic [ref=e159]: Thane city, Mumbai
+              - generic [ref=e163]:
+                - generic [ref=e164]:
+                  - paragraph [ref=e165]: $1,000
+                  - generic [ref=e166]: 488 seats available
+                - link "Book Now" [ref=e167] [cursor=pointer]:
+                  - /url: /events/14737
+      - generic [ref=e169]:
+        - heading "Ready to experience something new?" [level=2] [ref=e170]
+        - paragraph [ref=e171]: Browse thousands of events across India. Book tickets in seconds.
+        - link [ref=e172] [cursor=pointer]:
+          - /url: /events
+          - button "Explore All Events" [ref=e173]
+  - contentinfo [ref=e174]:
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - heading "Rahul Shetty Academy" [level=3] [ref=e178]
+          - paragraph [ref=e179]: India's leading QA automation training academy — empowering engineers to build real-world testing skills.
+        - generic [ref=e180]:
+          - heading "Popular Courses" [level=3] [ref=e181]
+          - list [ref=e182]:
+            - listitem [ref=e183]:
+              - link "Selenium WebDriver with Java" [ref=e184] [cursor=pointer]:
+                - /url: https://rahulshettyacademy.com
+            - listitem [ref=e185]:
+              - link "Playwright with JavaScript" [ref=e186] [cursor=pointer]:
+                - /url: https://rahulshettyacademy.com
+            - listitem [ref=e187]:
+              - link "RestAssured API Testing" [ref=e188] [cursor=pointer]:
+                - /url: https://rahulshettyacademy.com
+            - listitem [ref=e189]:
+              - link "Cypress End-to-End Testing" [ref=e190] [cursor=pointer]:
+                - /url: https://rahulshettyacademy.com
+            - listitem [ref=e191]:
+              - link "Appium Mobile Testing" [ref=e192] [cursor=pointer]:
+                - /url: https://rahulshettyacademy.com
+        - generic [ref=e193]:
+          - heading "QA Job Hiring Platform" [level=3] [ref=e194]
+          - paragraph [ref=e195]: Get hired faster — take skill assessments trusted by top QA employers worldwide.
+          - link "techsmarthire.com →" [ref=e196] [cursor=pointer]:
+            - /url: https://techsmarthire.com
+        - generic [ref=e197]:
+          - heading "EventHub Practice App" [level=3] [ref=e198]
+          - list [ref=e199]:
+            - listitem [ref=e200]:
+              - link "Browse Events" [ref=e201] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e202]:
+              - link "My Bookings" [ref=e203] [cursor=pointer]:
+                - /url: /bookings
+            - listitem [ref=e204]:
+              - link "Manage Events" [ref=e205] [cursor=pointer]:
+                - /url: /admin/events
+            - listitem [ref=e206]:
+              - link "API Documentation" [ref=e207] [cursor=pointer]:
+                - /url: https://api.eventhub.rahulshettyacademy.com/api/docs
+      - generic [ref=e208]:
+        - paragraph [ref=e209]: © 2026 Rahul Shetty Academy. All rights reserved.
+        - generic [ref=e210]:
+          - link "rahulshettyacademy.com →" [ref=e211] [cursor=pointer]:
+            - /url: https://rahulshettyacademy.com
+          - link "techsmarthire.com →" [ref=e212] [cursor=pointer]:
+            - /url: https://techsmarthire.com
+  - alert [ref=e2]

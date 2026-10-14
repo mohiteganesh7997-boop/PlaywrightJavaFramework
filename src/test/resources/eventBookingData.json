@@ -1,0 +1,30 @@
+[
+  {
+    "eventTitle": "Playwright Learning Event",
+    "eventDescription": "Enjoy the playwright learning",
+    "category": "Conference",
+    "city": "Mumbai",
+    "venue": "Thane city",
+    "eventDateTime": "2026-11-04T15:34",
+    "price": "1000",
+    "totalSeats": "500",
+    "imageUrl": "https://eventhub.rahulshettyacademy.com/admin/events",
+    "name": "Robert Junior",
+    "email": "robert123@gmail.com",
+    "phone": "7997012345"
+  },
+  {
+    "eventTitle": "Java Automation Workshop",
+    "eventDescription": "Learn Java automation with Playwright",
+    "category": "Workshop",
+    "city": "Pune",
+    "venue": "Mumbai Tech Park",
+    "eventDateTime": "2026-11-10T11:00",
+    "price": "1500",
+    "totalSeats": "300",
+    "imageUrl": "https://eventhub.rahulshettyacademy.com/admin/events",
+    "name": "John Smith",
+    "email": "johnsmith@gmail.com",
+    "phone": "9876543210"
+  }
+]

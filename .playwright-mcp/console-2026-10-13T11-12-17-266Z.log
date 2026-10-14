@@ -1,0 +1,4 @@
+[     427ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://eventhub.rahulshettyacademy.com/favicon.ico:0
+[     538ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://eventhub.rahulshettyacademy.com/favicon.ico:0
+[     544ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://eventhub.rahulshettyacademy.com/login:0
+[   37882ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eventhub.rahulshettyacademy.com/_next/image?url=https%3A%2F%2Feventhub.rahulshettyacademy.com%2Fadmin%2Fevents&w=640&q=75:0
