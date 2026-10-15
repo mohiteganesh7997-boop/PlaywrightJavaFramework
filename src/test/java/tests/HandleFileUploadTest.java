@@ -11,7 +11,7 @@ import java.nio.file.Paths;
 
 public class HandleFileUploadTest extends TestBase {
 
-    @Test
+    @Test(groups = {"framework"},description = "Handle File Upload Test")
     public void handleFileUpload(){
 
         page.navigate("https://automationtesting.co.uk/fileupload.html");
